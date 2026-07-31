@@ -7,3 +7,4 @@ output "subnet_cidr" {
 output "availability_zone" {
   value = aws_subnet.main.availability_zone
 }
+
