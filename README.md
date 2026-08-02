@@ -9,15 +9,15 @@ The project demonstrates hands-on experience with Terraform modules, remote stat
 ## Architecture
 
 ### The infrastructure deployed by this project includes:
--Amazon VPC
--Public Subnet
--Internet Gateway
--Route Table
--Route Table Association
--Security Group
--EC2 Instance
--Remote Terraform State (Amazon S3)
--State Locking (Amazon DynamoDB)
+- Amazon VPC
+- Public Subnet
+- Internet Gateway
+- Route Table
+- Route Table Association 
+- Security Group
+- EC2 Instance
+- Remote Terraform State (Amazon S3)
+- State Locking (Amazon DynamoDB)
 
 ## Architecture Flow
 ```text
@@ -43,46 +43,46 @@ The project demonstrates hands-on experience with Terraform modules, remote stat
 
 ```
 
-## Features:
--Modular Terraform project structure
--Environment separation (Development, QA, Production)
--Remote backend using Amazon S3
--State locking using DynamoDB
--Reusable Terraform modules
--Parameterized infrastructure using variables
--Resource tagging support
--Infrastructure version controlled with Git and GitHub       
+## Features 
+- Modular Terraform project structure
+- Environment separation (Development, QA, Production)
+- Remote backend using Amazon S3
+- State locking using DynamoDB
+- Reusable Terraform modules
+- Parameterized infrastructure using variables
+- Resource tagging support
+- Infrastructure version controlled with Git and GitHub       
 
 ## Technologies Used
--Terraform
--AWS EC2
--AWS VPC
--Amazon S3
--Amazon DynamoDB
--Git
--GitHub
+- Terraform
+- AWS EC2
+- AWS VPC
+- Amazon S3
+- Amazon DynamoDB
+- Git
+- GitHub
 
 ## Terraform Concepts Demonstrated
--Infrastructure as Code (IaC)
--Modular Terraform Design
--Variables
--Outputs
--Resource Dependencies
--Remote Backend
--State Locking
--Environment Separation
--Reusable Modules
--Resource Tagging
+- Infrastructure as Code (IaC)
+- Modular Terraform Design
+- Variables
+- Outputs
+- Resource Dependencies
+- Remote Backend
+- State Locking
+- Environment Separation
+- Reusable Modules
+- Resource Tagging
 
 ## Learning Outcomes
 
 Through this project, I gained practical experience in:
 
--Designing reusable Terraform modules
--Building AWS networking infrastructure
--Managing Terraform remote state
--Implementing Infrastructure as Code best practices
--Organizing infrastructure across multiple environments
--Managing resource dependencies
--Provisioning AWS resources using Terraform
--Version controlling infrastructure using Git and GitHub
+- Designing reusable Terraform modules
+- Building AWS networking infrastructure
+- Managing Terraform remote state
+- Implementing Infrastructure as Code best practices
+- Organizing infrastructure across multiple environments
+- Managing resource dependencies
+- Provisioning AWS resources using Terraform
+- Version controlling infrastructure using Git and GitHub
